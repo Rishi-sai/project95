@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="kwitter.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="kwitter.js"></script>
+</head>
+
+<body>
+    <section id="login" class="parallax-container">
+        <span>
+            <div class="parallax-inner">
+                <img src="https://img.nordangliaeducation.com/resources/asia/_filecache/75a/e76/181767-padded-w780-h585-of-1-FFFFFF-lets-talk.png"
+                    alt="" class="col-lg-6 col-md-6 col=s-6 col-xs-6">
+
+            </div>
+        </span>
+        <span>
+            <div class="parallax-inner">
+
+                <h1 id="wlctag">Welcome to Let's chat by St.mairy school</h1>
+                <br>
+                <kbd>↓Enter UserName</kbd>
+        </span> <br>
+        <span>
+            <center><input id="username" type="text" class="form-control" placeholder="Yes!,Enter it here"></center>
+            <br>
+            <button id="loginbtn" onclick="addUser()">Login</button><br><br>
+            <img src="data:image/png;base64,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"
+                alt="">
+            </div>
+
+        </span>
+
+    </section>
+
+</body>
+
+</html>

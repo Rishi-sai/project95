@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    background:radial-gradient(Circle, rgb(236, 145, 161),rgb(162, 240, 155));
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+h1{
+    
+    height: 50px;
+    font-family: cursive;
+    margin-left: 500px;
+}
+
+#rmninpt{
+    width:1000px;
+}
+#entrbtn{
+    background:radial-gradient(Circle,rgb(162, 240, 155) ,rgb(236, 145, 161));
+    color:rgb(47, 13, 237);
+}
+#trndroom{
+    background-color: white;
+    width: 1000px;
+}

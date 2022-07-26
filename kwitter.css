@@ -1,0 +1,28 @@
+#wlctag{
+    background-color: rgb(36, 32, 32);
+   color: darkorchid;
+    border-radius: 20px;
+    border-width:3px;
+    border-color: darkorchid;
+    margin-left : 675px;
+    
+}
+#username{
+    width:250px;
+    color: darkorchid;
+    background-color: rgb(36, 32, 32);
+    margin-left: 250px;
+    
+}
+#loginbtn{
+    color: darkorchid;
+    background-color: rgb(36, 32, 32);
+    border-radius: 20px;
+    border-width:3px;
+    border-color: darkorchid;
+    width: 250px;
+    font-size: 25px;
+}
+body{
+    text-align: center;
+}
